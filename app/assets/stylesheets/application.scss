@@ -1,0 +1,69 @@
+
+@import "bootstrap";
+
+
+.buy-button{
+    color: #fff;
+    background-color: #00c3ff;
+    border-color:  #00c3ff;
+}
+.buy-button:hover{
+    color: #fff;
+    background-color: #001aff;
+    border-color:  #001aff;
+}
+.buy-button:active {
+    color: #fff;
+    background-color: #2600ff;
+    border-color:  #2600ff;
+}
+.buy-btn {
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+}
+.buy-btn:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.sell-button{
+    color: #fff;
+    background-color: #ff7745;
+    border-color:  #ff7745;
+}
+.sell-button:hover{
+    color: #fff;
+    background-color: #ff0000;
+    border-color:  #ff0000;
+}
+.sell-button:active {
+    color: #fff;
+    background-color: #ff3c00;
+    border-color:  #ff5e00;
+}
+.sell-btn {
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+}
+.sell-btn:hover {
+    text-decoration: none;
+    color: #fff;
+}

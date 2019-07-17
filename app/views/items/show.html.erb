@@ -1,0 +1,51 @@
+<p id="notice"><%= notice %></p>
+
+
+<div class="row">
+  <div class="col-md-6">
+    <p>
+      <strong>Name:</strong>
+        <%= @item.name %>
+    </p>
+  </div>
+  <div class="col-md-6">
+           <% @item.images.each do |image|%>
+            <%= image_tag image, class: "d-block w-100"%>
+          <% end %>
+  </div>
+</div>
+<p>
+  <strong>Name:</strong>
+  <%= @item.name %>
+</p>
+
+
+<p>
+  <strong>State:</strong>
+  <%= @item.state %>
+</p>
+
+<p>
+  <strong>Postage:</strong>
+  <%= @item.postage %>
+</p>
+
+<p>
+  <strong>Region:</strong>
+  <%= @item.region %>
+</p>
+
+<p>
+  <strong>Shipping date:</strong>
+  <%= @item.shipping_date %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @item.price %>
+</p>
+
+
+
+<%= link_to 'Edit', edit_item_path(@item) %> |
+<%= link_to 'Back', items_path %>

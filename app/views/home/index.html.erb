@@ -1,0 +1,10 @@
+ <h1>ARE YOU </h1>
+
+<div class="stud-btn">
+
+    <%= link_to 'Buyer', "/items", class: "nav-link", class:"btn buy-button" %>
+
+    <%= link_to 'Seller', new_item_path, class: "nav-link", class:"btn sell-button" if current_user && current_user.profile %>
+   
+</div>
+

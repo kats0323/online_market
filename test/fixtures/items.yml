@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  image: MyString
+  state: MyString
+  postage: 1.5
+  region: MyText
+  shipping_date: 2019-07-15
+  price: 1.5
+
+two:
+  name: MyString
+  image: MyString
+  state: MyString
+  postage: 1.5
+  region: MyText
+  shipping_date: 2019-07-15
+  price: 1.5
